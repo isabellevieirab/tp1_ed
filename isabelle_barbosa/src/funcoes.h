@@ -9,8 +9,8 @@ struct celula{
 
 class ListaEncadeada{
     public:
-        celula* cabeca; // primeiro elemento
-        celula* ponta; // último elemento
+        celula* cabeca; 
+        celula* ponta; 
         int tamanho;
         
         ListaEncadeada();
