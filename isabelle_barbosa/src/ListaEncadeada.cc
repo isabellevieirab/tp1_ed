@@ -9,10 +9,10 @@ ListaEncadeada::ListaEncadeada(){
 
 ListaEncadeada::ListaEncadeada(int v){
   
-            this->cabeca = new celula;
-            this->cabeca->v = v;
-            this->ponta = cabeca;
-            this->tamanho = 1;
+    this->cabeca = new celula;
+    this->cabeca->v = v;
+    this->ponta = cabeca;
+    this->tamanho = 1;
 }
 
 ListaEncadeada::~ListaEncadeada(){
