@@ -1,5 +1,6 @@
 #include <cstdio> // em C substituir por #include <stdio.h>
-#include "funcoes.h"
+#include "ListaEncadeada.h"
+#include "retornaOperacoes.h"
 
 int main() {
   int q;
