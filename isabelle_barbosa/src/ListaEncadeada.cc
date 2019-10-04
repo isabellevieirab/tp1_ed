@@ -7,8 +7,7 @@ ListaEncadeada::ListaEncadeada(){
     this->tamanho = 0;
 }
 
-ListaEncadeada::ListaEncadeada(int v){
-  
+ListaEncadeada::ListaEncadeada(int v){  
     this->cabeca = new celula;
     this->cabeca->v = v;
     this->ponta = cabeca;
