@@ -28,7 +28,7 @@ int retornaOperacoes(ListaEncadeada *Frascos, int valor){
                             int soma = b.v + a.v;
                             int sub = a.v - b.v;
                             int operacoes = b.opr + 1;
-
+                            
                             if(soma == valor){
                                 delete Historico;
                                 return operacoes;
@@ -37,13 +37,11 @@ int retornaOperacoes(ListaEncadeada *Frascos, int valor){
                                 delete Historico;
                                 return operacoes;
                             }
-
                             if(soma > 0){
                                 if(Historico->verificaLista(soma)==-1){
                                     Historico->insere(soma, operacoes);
                                 }
                             }
-
                             if(sub > 0){
                                 if(Historico->verificaLista(sub)==-1){
                                     Historico->insere(sub, operacoes);
