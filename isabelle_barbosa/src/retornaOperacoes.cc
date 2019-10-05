@@ -49,11 +49,9 @@ int retornaOperacoes(ListaEncadeada *Frascos, int valor){
                                     Historico->insere(sub, operacoes);
                                 }
                             }
-
                         }
                 }
-
-    }
+        }
     delete Historico;
     return -1;
     }
